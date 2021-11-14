@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expresiones</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header bg-dark">
+      <div class="container">
+        <h2 class="text-white p-1">Narvaez Ruiz Alexis</h2>
+      </div>
+    </header>
+    <main>
+      <div class="container datos-alumno bg-light mt-3 p-3">
+        <div class="row info-alumno">
+          <div class="col-6 p-2">Nombre:</div>
+          <div class="col-6 p-2">Narvaez Ruiz Alexis</div>
+        </div>
+
+        <div class="row info-alumno">
+          <div class="col-6 p-2">Asignatura:</div>
+          <div class="col-6 p-2">Programación logica y Funcional</div>
+        </div>
+
+        <div class="row info-alumno">
+          <div class="col-6 p-2">Grupo:</div>
+          <div class="col-6 p-2">ISB</div>
+        </div>
+      </div>
+
+      <div class="container instrucciones bg-light mt-3 p-3">
+        <h6>Desarrollo:</h6>
+        <p>
+          Desarrollar una aplicación o programa el cual dada una expresión me
+          indique de que tipo es. Considerando lo que vimos en la exposición del
+          tema EXPRESIONES.
+        </p>
+        <hr>
+        <p>¿Como funciona?</p>
+        <p>Ingrese cualquiera de los siguientes ejemplos:</p>
+        
+        <div class="row">
+            <div class="col-6">Asignación:</div>
+            <div class="col-6">X=3454</div>
+        </div>
+        <div class="row">
+            <div class="col-6">Aritmetica:</div>
+            <div class="col-6">3+6</div>
+        </div>
+        <div class="row">
+            <div class="col-6">Relacional:</div>
+            <div class="col-6">34>45</div>
+        </div>
+        <div class="row">
+            <div class="col-6">logica:</div>
+            <div class="col-6">true&&false</div>
+        </div>
+        <div class="row">
+            <div class="col-6">Alfanumerica:</div>
+            <div class="col-6">scsjdcbj48734834</div>
+        </div>
+    </div>
+      <div class="container  mt-3">
+        <!--Formulario-->
+        <form action="" class="row d-flex justify-content-center p-5">
+          <div class="col-auto mb-3">
+            <label for="textExpresion">Ingrese la expresion</label>
+          </div>
+          <div class="col-auto mb-3">
+            <input type="text" name="" id="textExpresion" class="form-control"/>
+          </div>
+          <div class="col-auto mb-3">
+            <a href="#texto" id="button" class="btn btn-primary">Comprobar la expresion</a>
+          </div>
+        </form>
+      </div>
+      <div class="container mt-3">
+          <div class="row d-flex justify-content-center" >
+              <p id="texto" class="col-7 bg-success p-4 text-dark bg-opacity-25">Resultado:</p>
+          </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
